@@ -34,10 +34,30 @@ lead scoring, CRM integration, and sales approval.
 8. Request human approval before sending the email.
 9. Send an error alert when a workflow failure occurs.
 
+## Architecture
+LeadFlow AI follows a modular automation workflow:
+
+1. **Webhook Intake** — Receives incoming lead data.
+2. **Data Validation** — Checks required fields and normalizes input.
+3. **Duplicate Detection** — Helps prevent duplicate lead creation.
+4. **AI Lead Analysis** — Uses OpenAI to analyze lead information.
+5. **Lead Scoring** — Calculates a score and priority for each lead.
+6. **CRM Integration** — Creates lead records in Zoho CRM.
+7. **Sales Approval** — Requests human approval before sending a sales email.
+8. **Error Monitoring** — A supporting workflow classifies failures and sends email alerts.
+
 ## Project Status
 Core workflow built and tested. Preparing for secure publication,
 deployment, and portfolio documentation.
 
+## Demo and Privacy
+This repository documents the project's design and functionality.
+Live credentials, private customer information, and production
+webhook URLs must not be published.
+
+A sanitized workflow export and demonstration materials can be added
+after the export has been reviewed for sensitive configuration.
+
 ## Security
-This repository does not include API keys, passwords, access tokens,
-private customer information, or exported credentials.
+This repository must not contain API keys, passwords, access tokens,
+private customer information, or other sensitive credentials.
