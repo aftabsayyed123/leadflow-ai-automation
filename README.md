@@ -34,6 +34,28 @@ lead scoring, CRM integration, and sales approval.
 8. Request human approval before sending the email.
 9. Send an error alert when a workflow failure occurs.
 
+## Workflow
+
+1. Receive lead information through a webhook.
+2. Validate and normalize the submitted data.
+3. Check for duplicate leads.
+4. Analyze the lead using AI.
+5. Calculate a lead score and priority.
+6. Create the lead in Zoho CRM.
+7. Generate a personalized sales email.
+8. Request human approval before sending the email.
+9. Send an error alert when a workflow failure occurs.
+
+## Workflow Screenshots
+
+### Main Lead Qualification Workflow
+
+![LeadFlow AI Main Workflow](docs/docs/D4069CBA-FAA0-40D0-804D-538CE8646999.png)
+
+### Error Handling Workflow
+
+![LeadFlow AI Error Handling](docs/docs/36546E0F-8F73-45D5-A862-252BF1D86B24.png)
+
 ## Architecture
 LeadFlow AI follows a modular automation workflow:
 
