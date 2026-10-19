@@ -83,3 +83,9 @@ after the export has been reviewed for sensitive configuration.
 ## Security
 This repository must not contain API keys, passwords, access tokens,
 private customer information, or other sensitive credentials.
+
+## 🎥 Project Demo
+
+Watch the full video demonstration of LeadFlow AI 2.0:
+
+[▶️ Watch LeadFlow AI 2.0 — AI-Powered Lead Qualification & CRM Automation](https://youtu.be/WjzOJd96DA8)
